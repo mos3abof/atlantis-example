@@ -1,0 +1,11 @@
+version: 2
+projects:
+  - dir: project1
+    workflow: myworkflow
+workflows:
+  myworkflow:
+    apply:
+      steps:
+        - apply
+        - run: echo "Hello, world"
+
