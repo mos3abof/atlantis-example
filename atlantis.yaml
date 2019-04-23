@@ -8,9 +8,9 @@ workflows:
       steps:
         - init
         - plan
-        - run: echo "Hello, world!"
+        - run: echo "Goodbye, world!"
     apply:
       steps:
         - apply
-        - run: echo "Hello, world"
+        - run: echo "Goodbye, world"
 
