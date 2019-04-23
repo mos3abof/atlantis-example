@@ -4,6 +4,11 @@ projects:
     workflow: myworkflow
 workflows:
   myworkflow:
+    plan:
+      steps:
+        - init
+        - plan
+        - run: echo "Hello, world!"
     apply:
       steps:
         - apply
