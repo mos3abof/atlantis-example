@@ -14,4 +14,3 @@ workflows:
         - apply
         - run: echo "Goodbye, world"
 
-
